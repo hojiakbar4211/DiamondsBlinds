@@ -1,0 +1,140 @@
+/*FONTS*/
+@font-face{
+    font-family: "Brassie";
+    src: url("../fonts/Brassie-Regular 400.otf") format("truetype");
+}@font-face{
+    font-family: "GeosansLight";
+    src: url("../fonts/GeosansLight.ttf") format("truetype");
+}
+
+
+/*ICONS*/
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    mask-position: center center;
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    background-color: #808080; }
+
+.icon-sm {
+    width: 16px;
+    height: 16px; }
+
+.icon-heart {
+    mask-image: url("../icons/heart.svg");
+    -webkit-mask-image: url("../icons/heart.svg"); }
+.icon-user {
+    mask-image: url("../icons/avatar.svg");
+    -webkit-mask-image: url("../icons/avatar.svg");
+}
+.icon-cart {
+    mask-image: url("../icons/shopping-cart.svg");
+    -webkit-mask-image: url("../icons/shopping-cart.svg");
+}
+.icon-wishlist {
+    mask-image: url("../icons/wishlist.png");
+    -webkit-mask-image: url("../icons/wishlist.png");
+}
+
+.icon-location {
+    mask-image: url("../icons/location.png");
+    -webkit-mask-image: url("../icons/location.png");
+     vertical-align: -3px;
+}
+
+.icon-play-button {
+    mask-image: url("../icons/play-button.png");
+    -webkit-mask-image: url("../icons/play-button.png"); }
+
+/*.icon-audio {*/
+/*    mask-image: url("../images/audio.png");*/
+/*    -webkit-mask-image: url("../images/audio.png"); }*/
+
+/*.icon-video {*/
+/*    mask-image: url("../images/video.png");*/
+/*    -webkit-mask-image: url("../images/video.png"); }*/
+
+.icon-message {
+    mask-image: url("../icons/mail.svg");
+    -webkit-mask-image: url("../icons/mail.svg"); }
+
+/*.icon-users {*/
+/*    mask-image: url("../images/users.png");*/
+/*    -webkit-mask-image: url("../images/users.png"); }*/
+
+.icon-massage {
+    mask-image: url("../icons/mail.svg");
+    -webkit-mask-image: url("../icons/mail.svg");
+    vertical-align: -3px; }
+
+.icon-phone {
+    mask-image: url("../icons/phone.svg");
+    -webkit-mask-image: url("../icons/phone.svg");
+    vertical-align: -3px; }
+
+.icon-map {
+    mask-image: url("../icons/map-pin.svg");
+    -webkit-mask-image: url("../icons/map-pin.svg");
+    vertical-align: -3px; }
+
+.icon-download {
+    mask-image: url("../icons/download.svg");
+    -webkit-mask-image: url("../icons/download.svg");
+    vertical-align: -3px; }
+
+.icon-eye {
+    mask-image: url("../icons/eye.svg");
+    -webkit-mask-image: url("../icons/eye.svg");
+    vertical-align: -3px;
+    padding-right: 2px; }
+
+.icon-round {
+    mask-image: url("../icons/round.png");
+    -webkit-mask-image: url("../icons/round.png"); }
+
+.icon-search {
+    mask-image: url("../icons/search.svg");
+    -webkit-mask-image: url("../icons/search.svg"); }
+
+.icon-shopping-cart {
+    mask-image: url("../icons/shopping-cart.svg");
+    -webkit-mask-image: url("../icons/shopping-cart.svg"); }
+
+.icon-play {
+    mask-image: url("../icons/play.svg");
+    -webkit-mask-image: url("../icons/play.svg"); }
+
+/*SETTING*/
+
+.hover:hover{
+    text-decoration: red underline ;
+
+}
+.geosansLight{
+    font-family: GeosansLight;
+}
+
+.bg-light2{
+    background-color: rgba(184, 196, 207, 0.47);
+}.text-danger{
+    color: red;
+ }
+
+p{
+    line-height: 20px;
+}
+
+
+
+/*ANIMATION*/
+.animation:hover{
+    transform: scale(1.02) ;
+
+
+}
